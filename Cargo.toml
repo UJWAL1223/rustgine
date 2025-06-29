@@ -4,8 +4,15 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-env_logger = "0.11.7"
-gl = "0.14.0"
-glam = "0.30.0"
-pollster = "0.4.0"
-sdl2 = "0.37.0" 
+egui = "0.31.1" #GUI for HUD mennu
+env_logger = "0.11.7" #Environment based logging
+gl = "0.14.0"  #OpenGL
+gltf = "1.4.1" #GLTF model and texture loading
+log = "0.4.27" #Log for debugging
+rapier3d = "0.26.1" #For physic and collision detection
+rlua = "0.20.1" #Lua scripting integration 
+rodio = "0.20.1" #For audio
+sdl2 = "0.37.0"   #SDL2 for window
+specs = "0.20.0"  # ESC for scene management
+
+egui_sdl2_gl = "0.28.0"  #egui for opengl and sdl2
