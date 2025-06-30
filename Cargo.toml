@@ -14,5 +14,4 @@ rlua = "0.20.1" #Lua scripting integration
 rodio = "0.20.1" #For audio
 sdl2 = "0.37.0"   #SDL2 for window
 specs = "0.20.0"  # ESC for scene management
-
 egui_sdl2_gl = "0.28.0"  #egui for opengl and sdl2
